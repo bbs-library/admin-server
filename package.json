@@ -1,0 +1,36 @@
+{
+  "name": "admin-server",
+  "version": "1.0.0",
+  "description": "bbs后台管理",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbs-library/admin-server.git"
+  },
+  "author": "小李同学",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbs-library/admin-server/issues"
+  },
+  "homepage": "https://github.com/bbs-library/admin-server#readme",
+  "dependencies": {
+    "egg": "^2.33.1",
+    "egg-decorator-router": "^1.0.7",
+    "egg-redis": "^2.4.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-view-ejs": "^2.0.1",
+    "mysql2": "^2.3.3",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.18.1"
+  },
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  }
+}

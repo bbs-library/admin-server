@@ -1,0 +1,326 @@
+{
+  "keys": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+  "redis": {
+    "clients": {
+      "foo": {
+        "port": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+        "host": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+        "password": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+        "db": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts"
+      },
+      "bar": {
+        "port": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+        "host": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+        "password": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+        "db": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts"
+      }
+    },
+    "default": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-redis/config/config.default.js"
+  },
+  "sequelize": {
+    "username": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.local.ts",
+    "password": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.local.ts",
+    "connectionUri": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.default.ts",
+    "dialect": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.local.ts",
+    "database": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.local.ts",
+    "host": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.local.ts",
+    "port": "/Users/lixin/Desktop/项目/bbs-library/admin-server/config/config.local.ts"
+  },
+  "session": {
+    "maxAge": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "decoratorRouter": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg-decorator-router/config/config.default.js",
+  "env": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "main": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "egg-decorator-router": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "egg": {
+      "typescript": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "declarations": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "port": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lixin/Desktop/项目/bbs-library/admin-server/node_modules/egg/config/config.default.js"
+}
