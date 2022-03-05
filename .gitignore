@@ -1,3 +1,6 @@
+# idea
+.idea
+
 # Logs
 logs
 *.log
@@ -43,6 +46,12 @@ jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
+
+# MYSQL_CONFIG
+config/mysql.config.ts
+
+# run files
+run/
 
 # TypeScript cache
 *.tsbuildinfo

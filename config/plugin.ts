@@ -2,10 +2,6 @@ import { EggPlugin } from 'egg';
 
 const plugin: EggPlugin = {
     // static: true,
-    ejs: {
-        enable: true,
-        package: 'egg-view-ejs',
-    },
     redis: {
         enable: true,
         package: 'egg-redis',
@@ -14,10 +10,10 @@ const plugin: EggPlugin = {
         enable: true,
         package: 'egg-sequelize',
     },
-    decoratorRouter: {
-        enable: true,
-        package: 'egg-decorator-router',
-    }
+    // decoratorRouter: {
+    //     enable: true,
+    //     package: '@lima/egg-aop-decorator',
+    // },
 };
 
 export default plugin;

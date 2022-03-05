@@ -1,48 +1,29 @@
-import { EggAppConfig } from "egg";
+import { EggAppConfig } from 'egg';
+// import { MYSQL_DATABASE, MYSQL_HOST, MYSQL_PASSWORD, MYSQL_USERNAME } from './mysql.config';
 
 export default () => {
 
     const config: EggAppConfig = {} as EggAppConfig;
-    
-    config.keys = 'bbs-library';
-    
-    config.redis = {
-        clients: {
-            foo: {                 // instanceName. See below
-                port: 6379,          // Redis port
-                host: '127.0.0.1',   // Redis host
-                password: 'auth',
-                db: 0,
-            },
-            bar: {
-                port: 6379,
-                host: '127.0.0.1',
-                password: 'auth',
-                db: 1,
-            },
-        }
-    }
-    
-    config.sequelize = {
-        // dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
-        // database: 'bbs',
-        // host: '47.94.252.72',
-        // port: 3306,
-        username: 'lokep',
-        password: 'lou1996@',
-        connectionUri: "mysql://47.94.252.72:3306/bbs"
-        // delegate: 'myModel', // load all models to `app[delegate]` and `ctx[delegate]`, default to `model`
-        // baseDir: 'my_model', // load all files in `app/${baseDir}` as models, default to `model`
-        // exclude: 'index.js', // ignore `app/${baseDir}/index.js` when load models, support glob and array
-        // more sequelize options
-    }
-  
-    return config;
-};
 
-export const view = {
-    defaultViewEngine: 'ejs',
-    mapping: {
-      '.html': 'ejs',
-    },
+    config.keys = 'bbs-library';
+
+    // config.sequelize = {
+    //     dialect: 'mysql',
+    //     database: MYSQL_DATABASE,
+    //     host: MYSQL_HOST || 'localhost',
+    //     port: 3306,
+    //     username: MYSQL_USERNAME,
+    //     password: MYSQL_PASSWORD,
+    // };
+
+    // 解决post请求csrf token丢失的问题
+    // 或者前后端设置预防攻击的请求头
+    config.security = {
+        csrf: {
+            enable: false,
+            // headerName: 'x-csrf-token',
+        },
+    } as EggAppConfig['security'];
+
+    return config;
 };
