@@ -50,6 +50,9 @@ typings/
 # MYSQL_CONFIG
 config/mysql.config.ts
 
+# REDIS_CONFIG
+config/redis.config.ts
+
 # run files
 run/
 

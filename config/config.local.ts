@@ -1,18 +1,12 @@
+import { REDIS_HOST, REDIS_PWD } from './redis.config';
+
 exports.redis = {
-    // clients: {
-    //     foo: {                 // instanceName. See below
-    //         port: 6379,          // Redis port
-    //         host: '127.0.0.1',   // Redis host
-    //         password: 'auth',
-    //         db: 0,
-    //     },
-    //     bar: {
-    //         port: 6379,
-    //         host: '127.0.0.1',
-    //         password: 'auth',
-    //         db: 1,
-    //     },
-    // }
+    client: {
+        port: 6379, // Redis port
+        host: REDIS_HOST, // Redis host
+        password: REDIS_PWD,
+        db: 0,
+    },
 };
 
 exports.sequelize = {
