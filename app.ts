@@ -1,4 +1,4 @@
-import RouteShell from '@lima/egg-aop-decorator';
+import RouteShell from '@package/egg-router-decorator';
 import { Application, IBoot } from 'egg';
 
 export default class FooBoot implements IBoot {
@@ -6,6 +6,10 @@ export default class FooBoot implements IBoot {
 
     constructor(app: Application) {
         this.app = app;
+    }
+
+    configWillLoad() {
+        require('module-alias/register');
     }
 
     async didLoad() {

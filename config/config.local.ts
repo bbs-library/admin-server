@@ -16,4 +16,7 @@ exports.sequelize = {
     port: 3306,
     username: 'root',
     password: 'lixin19940802',
+    define: {
+        underscored: false,
+    },
 };

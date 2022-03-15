@@ -21,10 +21,15 @@
     "skipDefaultLibCheck": true,
     "inlineSourceMap": true,
     "importHelpers": true,
-    "outDir": "lib"
+    "outDir": "lib",
+    "baseUrl": ".", // 一定要设置，项目的路径
+    "paths": { // 这里配置相应的别名
+      "@package/*": ["./app/package/*"],
+    }
   },
   "exclude": [
     "app/public",
-    "node_modules*"
+    "node_modules*",
+    "app/package"
   ]
 }

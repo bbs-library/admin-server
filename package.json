@@ -18,11 +18,11 @@
     },
     "homepage": "https://github.com/bbs-library/admin-server#readme",
     "dependencies": {
-        "@lima/egg-aop-decorator": "^1.2.3",
         "egg": "^2.33.1",
         "egg-redis": "^2.4.0",
         "egg-sequelize": "^6.0.0",
         "egg-view-ejs": "^2.0.1",
+        "module-alias": "^2.2.2",
         "mysql2": "^2.3.3",
         "typescript": "^4.6.2"
     },
@@ -40,5 +40,8 @@
     "egg": {
         "typescript": true,
         "declarations": true
+    },
+    "_moduleAliases": {
+        "@package": "app/package"
     }
 }

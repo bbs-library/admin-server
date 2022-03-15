@@ -1,5 +1,5 @@
 import { Controller } from 'egg';
-import { Prefix, Get, Query, Post, Body, Param, Nullable } from '@lima/egg-aop-decorator';
+import { Prefix, Get, Query, Post, Body, Param, Nullable } from '@package/egg-router-decorator';
 
 @Prefix('/api/admin')
 export default class AdminController extends Controller {

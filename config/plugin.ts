@@ -1,4 +1,5 @@
 import { EggPlugin } from 'egg';
+require('module-alias/register');
 
 const plugin: EggPlugin = {
     // static: true,
@@ -10,10 +11,6 @@ const plugin: EggPlugin = {
         enable: true,
         package: 'egg-sequelize',
     },
-    // decoratorRouter: {
-    //     enable: true,
-    //     package: '@lima/egg-aop-decorator',
-    // },
 };
 
 export default plugin;

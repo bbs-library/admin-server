@@ -17,4 +17,7 @@ exports.sequelize = {
     port: 3306,
     username: MYSQL_USERNAME,
     password: MYSQL_PASSWORD,
+    define: {
+        underscored: false,
+    },
 };

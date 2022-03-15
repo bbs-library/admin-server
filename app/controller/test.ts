@@ -1,5 +1,5 @@
 import { Controller } from 'egg';
-import { Get, Prefix, Query } from '@lima/egg-aop-decorator';
+import { Get, Prefix, Query } from '@package/egg-router-decorator';
 
 @Prefix('/api/test')
 export default class TestController extends Controller {
