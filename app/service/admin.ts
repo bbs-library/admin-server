@@ -64,7 +64,7 @@ export default class AdminService extends Service {
 
     // 通过id查询管理员
     public async getAdminById(id: number) {
-        const data = await this.adminModel.findOne({ where: { id } });
+        const data = await this.adminModel.findByPk(id);
         if (data) {
             return {
                 status: 200,
@@ -77,7 +77,5 @@ export default class AdminService extends Service {
             message: '没有查询到此账户的相关信息',
         };
     }
-
-    // 创建一个管理员
 
 }
