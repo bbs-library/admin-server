@@ -1,6 +1,6 @@
 import { Application } from 'egg';
 import { BuildOptions, Model } from 'sequelize';
-interface TopicTypes extends Model {
+export interface TopicTypes extends Model {
     readonly id: number;
     topicID: string;
     topicName: string;
