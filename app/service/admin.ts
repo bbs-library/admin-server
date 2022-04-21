@@ -32,7 +32,7 @@ export default class AdminService extends Service {
         }
         await this.adminModel.findOrCreate({
             where: { admin },
-            defaults: { admin, password, power, createAt: new Date() },
+            defaults: { admin, password, power },
         });
 
         return {

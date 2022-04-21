@@ -1,4 +1,4 @@
-import { MYSQL_DATABASE, MYSQL_PASSWORD, MYSQL_USERNAME } from './mysql.config';
+import { MYSQL_DATABASE, MYSQL_HOST, MYSQL_PASSWORD, MYSQL_USERNAME } from './mysql.config';
 import { REDIS_PWD } from './redis.config';
 
 exports.redis = {
@@ -13,7 +13,7 @@ exports.redis = {
 exports.sequelize = {
     dialect: 'mysql',
     database: MYSQL_DATABASE,
-    host: 'localhost',
+    host: MYSQL_HOST,
     port: 3306,
     username: MYSQL_USERNAME,
     password: MYSQL_PASSWORD,
